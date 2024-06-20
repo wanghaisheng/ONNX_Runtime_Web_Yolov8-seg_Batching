@@ -14,11 +14,17 @@ This repository demonstrates how to use ONNX Runtime to run Yolov8-seg models in
 - **TensorFlow.js:** For image preprocessing and manipulation.
 - **OpenCV.js:** Used for image processing and drawing masks.
 - **HTML/CSS/JavaScript:** Frontend development technologies.
-- 
+
+  ## Segmentation Example
+
+![Segmentation Example]()
+
+This image shows the segmentation results of the web application.
 
 - ## Installation
  Simply clone the repository and open `index.html` in live server in a web browser .
 
  ```bash
 git clone https://github.com/yourusername/ONNX_Runtime_Web_Yolov8-seg_Batching.git
-cd ONNX_Runtime_Web_Yolov8-seg_Batching
+
+
