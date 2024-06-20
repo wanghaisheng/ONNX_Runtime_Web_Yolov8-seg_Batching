@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolov8-seg with Batching</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/onnxruntime-web/1.16.1/ort.webgpu.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.3.0/dist/tf.min.js"></script>
+    <script src="opencv.js"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            margin: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Yolov8-seg with Batching
+    </header>
+    
+    <main>
+        <div class="gallery">
+            <img src="img/1.jpg" alt="Image 1">
+            <img src="img/2.jpg" alt="Image 2">
+            <img src="img/3.jpg" alt="Image 3">
+            <img src="img/4.jpg" alt="Image 4">
+            <img src="img/5.jpg" alt="Image 5">
+        </div>
+    </main>
+    
+    <footer>
+        &copy; 2024 Your Company. All rights reserved.
+    </footer>
+    
+    <script src="fixed.js"></script> 
+    <script src="index.js"></script>
+</body>
+</html>
