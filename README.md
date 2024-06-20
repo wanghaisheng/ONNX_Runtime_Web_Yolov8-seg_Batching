@@ -15,9 +15,15 @@ This repository demonstrates how to use ONNX Runtime to run Yolov8-seg models in
 - **OpenCV.js:** Used for image processing and drawing masks.
 - **HTML/CSS/JavaScript:** Frontend development technologies.
 
-  ## Segmentation Example
+## Before Segmentation
 
-![Segmentation Example]()
+![Before Segmentation](https://github.com/shimaamorsy/ONNX_Runtime_Web_Yolov8-seg_Batching/blob/main/img/before.PNG)
+
+This image shows the state before segmentation.
+
+  ## After Segmentation
+
+![After Segmentation](https://github.com/shimaamorsy/ONNX_Runtime_Web_Yolov8-seg_Batching/blob/main/img/after.png)
 
 This image shows the segmentation results of the web application.
 
