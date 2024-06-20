@@ -31,6 +31,6 @@ This image shows the segmentation results of the web application.
  Simply clone the repository and open `index.html` in live server in a web browser .
 
  ```bash
-git clone https://github.com/yourusername/ONNX_Runtime_Web_Yolov8-seg_Batching.git
+git clone https://github.com/shimaamorsy/ONNX_Runtime_Web_Yolov8-seg_Batching.git
 
 
