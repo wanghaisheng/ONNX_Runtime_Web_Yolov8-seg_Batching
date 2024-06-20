@@ -8,11 +8,11 @@ This repository demonstrates how to use ONNX Runtime to run Yolov8-seg models in
 - **Real-time Processing:** Processes images in real-time directly in the web browser.
 - **Interactive Gallery:** Displays processed images with interactive hover effects.
 
-- ## Technologies Used
+## Technologies Used
 
 - **ONNX Runtime:** For running the YOLOv8 and segmentation models.
 - **TensorFlow.js:** For image preprocessing and manipulation.
-- **OpenCV.js:** Used for image processing and drawing masks.
+- **OpenCV.js:** Used for drawing masks.
 - **HTML/CSS/JavaScript:** Frontend development technologies.
 
 ## Before Segmentation
